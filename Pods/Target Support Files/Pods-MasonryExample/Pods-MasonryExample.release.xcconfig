@@ -1,0 +1,9 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/ChameleonFramework" "${PODS_ROOT}/Headers/Public/FDStackView" "${PODS_ROOT}/Headers/Public/Masonry" "${PODS_ROOT}/Headers/Public/UITableView+FDTemplateLayoutCell" "${PODS_ROOT}/Headers/Public/UIView+FDCollapsibleConstraints" "${PODS_ROOT}/Headers/Public/libextobjc"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/ChameleonFramework" "${PODS_CONFIGURATION_BUILD_DIR}/FDStackView" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry" "${PODS_CONFIGURATION_BUILD_DIR}/UITableView+FDTemplateLayoutCell" "${PODS_CONFIGURATION_BUILD_DIR}/UIView+FDCollapsibleConstraints" "${PODS_CONFIGURATION_BUILD_DIR}/libextobjc"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/ChameleonFramework" -isystem "${PODS_ROOT}/Headers/Public/FDStackView" -isystem "${PODS_ROOT}/Headers/Public/Masonry" -isystem "${PODS_ROOT}/Headers/Public/UITableView+FDTemplateLayoutCell" -isystem "${PODS_ROOT}/Headers/Public/UIView+FDCollapsibleConstraints" -isystem "${PODS_ROOT}/Headers/Public/libextobjc"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"ChameleonFramework" -l"FDStackView" -l"Masonry" -l"UITableView+FDTemplateLayoutCell" -l"UIView+FDCollapsibleConstraints" -l"libextobjc" -framework "CoreGraphics" -framework "Foundation" -framework "QuartzCore" -framework "UIKit"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
