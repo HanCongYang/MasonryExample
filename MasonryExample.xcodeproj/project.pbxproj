@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		1101E39521118B5B00B7EA94 /* MasonrySpringAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1101E39321118B5B00B7EA94 /* MasonrySpringAnimationViewController.m */; };
 		1101E39821118C5100B7EA94 /* MasonrySuspendButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1101E39721118C5100B7EA94 /* MasonrySuspendButtonViewController.m */; };
+		112854E72179A8110016D500 /* AutolayoutSubview.m in Sources */ = {isa = PBXBuildFile; fileRef = 112854E62179A8110016D500 /* AutolayoutSubview.m */; };
+		112854ED2179B0140016D500 /* MasonryLeadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 112854EC2179B0140016D500 /* MasonryLeadingViewController.m */; };
 		1168869521118FD5006432E5 /* MasonryTableViewCellHeightAdaptiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1168869421118FD5006432E5 /* MasonryTableViewCellHeightAdaptiveViewController.m */; };
 		1168869A21119040006432E5 /* HYListEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 1168869921119040006432E5 /* HYListEntity.m */; };
 		1168869E2111918A006432E5 /* HYResizeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1168869D21119189006432E5 /* HYResizeTableViewCell.m */; };
 		116886A0211191DD006432E5 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 1168869F211191DD006432E5 /* data.json */; };
 		116886A321119616006432E5 /* MasonryFDStackViewHeightAdaptiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 116886A221119616006432E5 /* MasonryFDStackViewHeightAdaptiveViewController.m */; };
 		116886A621119655006432E5 /* FDStackViewSubView.m in Sources */ = {isa = PBXBuildFile; fileRef = 116886A521119655006432E5 /* FDStackViewSubView.m */; };
+		119D14AC2179742B0050141F /* AutolayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 119D14AB2179742B0050141F /* AutolayoutView.m */; };
+		119D14AF217974440050141F /* AutolayoutExplainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 119D14AE217974440050141F /* AutolayoutExplainViewController.m */; };
 		11DB6B9121115635009891B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DB6B9021115635009891B7 /* AppDelegate.m */; };
 		11DB6B9421115635009891B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DB6B9321115635009891B7 /* ViewController.m */; };
 		11DB6B9721115635009891B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11DB6B9521115635009891B7 /* Main.storyboard */; };
@@ -29,6 +33,10 @@
 		1101E39421118B5B00B7EA94 /* MasonrySpringAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasonrySpringAnimationViewController.h; sourceTree = "<group>"; };
 		1101E39621118C5100B7EA94 /* MasonrySuspendButtonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasonrySuspendButtonViewController.h; sourceTree = "<group>"; };
 		1101E39721118C5100B7EA94 /* MasonrySuspendButtonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonrySuspendButtonViewController.m; sourceTree = "<group>"; };
+		112854E52179A8110016D500 /* AutolayoutSubview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutolayoutSubview.h; sourceTree = "<group>"; };
+		112854E62179A8110016D500 /* AutolayoutSubview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutolayoutSubview.m; sourceTree = "<group>"; };
+		112854EB2179B0140016D500 /* MasonryLeadingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasonryLeadingViewController.h; sourceTree = "<group>"; };
+		112854EC2179B0140016D500 /* MasonryLeadingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonryLeadingViewController.m; sourceTree = "<group>"; };
 		1168869321118FD5006432E5 /* MasonryTableViewCellHeightAdaptiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasonryTableViewCellHeightAdaptiveViewController.h; sourceTree = "<group>"; };
 		1168869421118FD5006432E5 /* MasonryTableViewCellHeightAdaptiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonryTableViewCellHeightAdaptiveViewController.m; sourceTree = "<group>"; };
 		1168869821119040006432E5 /* HYListEntity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYListEntity.h; sourceTree = "<group>"; };
@@ -40,6 +48,10 @@
 		116886A221119616006432E5 /* MasonryFDStackViewHeightAdaptiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonryFDStackViewHeightAdaptiveViewController.m; sourceTree = "<group>"; };
 		116886A421119655006432E5 /* FDStackViewSubView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDStackViewSubView.h; sourceTree = "<group>"; };
 		116886A521119655006432E5 /* FDStackViewSubView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDStackViewSubView.m; sourceTree = "<group>"; };
+		119D14AA2179742B0050141F /* AutolayoutView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutolayoutView.h; sourceTree = "<group>"; };
+		119D14AB2179742B0050141F /* AutolayoutView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutolayoutView.m; sourceTree = "<group>"; };
+		119D14AD217974440050141F /* AutolayoutExplainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutolayoutExplainViewController.h; sourceTree = "<group>"; };
+		119D14AE217974440050141F /* AutolayoutExplainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutolayoutExplainViewController.m; sourceTree = "<group>"; };
 		11DB6B8C21115635009891B7 /* MasonryExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasonryExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11DB6B8F21115635009891B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		11DB6B9021115635009891B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -71,6 +83,7 @@
 		1101E38E211186AC00B7EA94 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				119D14A92179740A0050141F /* AutolayoutExplain */,
 				1168869B2111904F006432E5 /* Others */,
 				116886972111902B006432E5 /* Entitys */,
 				1168869621118FE8006432E5 /* Views */,
@@ -90,6 +103,8 @@
 				1168869421118FD5006432E5 /* MasonryTableViewCellHeightAdaptiveViewController.m */,
 				116886A121119616006432E5 /* MasonryFDStackViewHeightAdaptiveViewController.h */,
 				116886A221119616006432E5 /* MasonryFDStackViewHeightAdaptiveViewController.m */,
+				112854EB2179B0140016D500 /* MasonryLeadingViewController.h */,
+				112854EC2179B0140016D500 /* MasonryLeadingViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -120,6 +135,19 @@
 				1168869F211191DD006432E5 /* data.json */,
 			);
 			path = Others;
+			sourceTree = "<group>";
+		};
+		119D14A92179740A0050141F /* AutolayoutExplain */ = {
+			isa = PBXGroup;
+			children = (
+				119D14AA2179742B0050141F /* AutolayoutView.h */,
+				119D14AB2179742B0050141F /* AutolayoutView.m */,
+				112854E52179A8110016D500 /* AutolayoutSubview.h */,
+				112854E62179A8110016D500 /* AutolayoutSubview.m */,
+				119D14AD217974440050141F /* AutolayoutExplainViewController.h */,
+				119D14AE217974440050141F /* AutolayoutExplainViewController.m */,
+			);
+			path = AutolayoutExplain;
 			sourceTree = "<group>";
 		};
 		11DB6B8321115635009891B7 = {
@@ -268,10 +296,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				119D14AC2179742B0050141F /* AutolayoutView.m in Sources */,
+				112854E72179A8110016D500 /* AutolayoutSubview.m in Sources */,
 				1168869E2111918A006432E5 /* HYResizeTableViewCell.m in Sources */,
 				116886A321119616006432E5 /* MasonryFDStackViewHeightAdaptiveViewController.m in Sources */,
 				1101E39521118B5B00B7EA94 /* MasonrySpringAnimationViewController.m in Sources */,
 				1101E39821118C5100B7EA94 /* MasonrySuspendButtonViewController.m in Sources */,
+				119D14AF217974440050141F /* AutolayoutExplainViewController.m in Sources */,
+				112854ED2179B0140016D500 /* MasonryLeadingViewController.m in Sources */,
 				1168869A21119040006432E5 /* HYListEntity.m in Sources */,
 				11DB6B9421115635009891B7 /* ViewController.m in Sources */,
 				11DB6B9F21115636009891B7 /* main.m in Sources */,

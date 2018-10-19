@@ -47,6 +47,10 @@
     [_dataSource addObject:[self tableViewCellTitle:@"悬浮按钮" viewClassName:@"MasonrySuspendButtonViewController"]];
     [_dataSource addObject:[self tableViewCellTitle:@"高度自适应Cell" viewClassName:@"MasonryTableViewCellHeightAdaptiveViewController"]];
     [_dataSource addObject:[self tableViewCellTitle:@"FDStackView自适应" viewClassName:@"MasonryFDStackViewHeightAdaptiveViewController"]];
+    [_dataSource addObject:[self tableViewCellTitle:@"Autolayout详解" viewClassName:@"AutolayoutExplainViewController"]];
+    [_dataSource addObject:[self tableViewCellTitle:@"Autolayout详解" viewClassName:@"MasonryLeadingViewController"]];
+
+
     
 }
 
